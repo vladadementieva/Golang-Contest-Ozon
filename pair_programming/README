@@ -1,0 +1,28 @@
+The company employs n developers, where n is an even number. The crazy manager decided to break all the developers into teams of two people.
+To do this, he made a list of all developers and assigned each of them a number on the list (from 1 to n) and the value ai — the skill level of the i-th developer in the list.
+The process of creation of every new team looks like:
+1) The first developer on the team is the one who comes first on the list;
+2) The pair for the first developers have the smallest difference of skills. If there are few pair canditates, then choice for the closest in list.
+3) Then thae pair of developers are created new team and removed from list.
+
+Example
+input data
+3
+6
+2 1 3 1 1 4
+2
+5 5
+8
+1 4 2 5 4 2 6 3
+
+output data
+1 2
+3 6
+4 5
+
+1 2
+
+1 3
+2 5
+4 7
+6 8

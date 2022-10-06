@@ -1,0 +1,37 @@
+There is a promotion in the store: "buy three of the same product and pay only for two."
+Of course, each product purchased can participate in only one promotion.
+The promotion can be used multiple times.
+For example, if 7 goods of one type are purchased at a price of 2 per piece and 5 goods of another type at a price of 3 per piece, then instead of 7⋅2+5⋅3, you will have to pay 5⋅2+4⋅3=22.
+Assuming that only the same goods have the same prices, find the amount payable.
+Incomplete solutions to this problem (for example, insufficiently effective) can be assessed with a partial score.
+
+Input data
+The first line contains an integer t (1≤t≤104) — the number of test cases.
+Next are the input data sets. Each one starts with a line that contains n (1≤n≤2⋅105) — the number of items purchased. The next line contains their prices p1,p2,…,pn (1≤pi≤104). If the prices of two goods are the same, then we must assume that this is one and the same product.
+It is guaranteed that the sum of n values ​​over all tests does not exceed 2⋅105.
+Output
+Print t integers — the amounts to be paid for each of the test cases.
+
+Example
+input data
+6
+12
+2 2 2 2 2 2 2 3 3 3 3 3
+12
+2 3 2 3 2 2 3 2 3 2 2 3
+one
+10000
+9
+1 2 3 1 2 3 1 2 3
+6
+10000 10000 10000 10000 10000 10000
+6
+300 100 200 300 200 300
+
+output data
+22
+22
+10000
+12
+40000
+110

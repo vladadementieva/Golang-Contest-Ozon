@@ -1,0 +1,28 @@
+The director of an IT-corporation estimates the efficiency of workers by the different indicators and measures. 
+Оne of such measures is - the worker should finished the task without swithching to the other tasks.
+Director required the report from every worker about the finished tasks during the last n days.
+The report is sequence of n integers, like a1, a2, ...an, where ai- is identifier of the task, that worker was doing at the i-day.
+You need to write the program, that check reports and decide is worker satisfy the measure or not.
+The worker is satisfy the measure if there is not X-task, that will be proccesed with gap.
+I.e. every worker's task must be filled one uninterrupted period.
+
+Example
+input data
+5
+5
+1 2 3 4 5
+4
+1 2 3 1
+8
+2 3 4 8 5 5 5 5
+5
+1 1 3 2 2
+5
+1 1 2 3 2
+output data
+YES
+NO
+YES
+YES
+NO
+
